@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2480 3508" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <path id="route" d="M356.1,2240.6 Q1039.6,1451.5 1984.1,1505.8" fill="none"/>
+    <g id="plane" stroke="#2E3235" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M-100,0 L112,0"/>
+      <path d="M12,0 L-42,-74"/>
+      <path d="M12,0 L-42,74"/>
+      <path d="M-88,0 L-122,-40"/>
+      <path d="M-88,0 L-122,40"/>
+    </g>
+  </defs>
+  <!-- 흐르는 점선 항적 -->
+  <use href="#route" stroke="#2E3235" stroke-width="9" stroke-linecap="round" stroke-dasharray="26 16" fill="none">
+    <animate attributeName="stroke-dashoffset" from="0" to="-42" dur="1.4s" repeatCount="indefinite"/>
+  </use>
+  <!-- 비행기: 항적을 따라 날아가며 사라졌다가 다시 시작 -->
+  <g opacity="0">
+    <use href="#plane"/>
+    <animateMotion dur="9s" repeatCount="indefinite" rotate="auto" keyPoints="0;1" keyTimes="0;1" calcMode="linear" path="M356.1,2240.6 Q1039.6,1451.5 1984.1,1505.8"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+</svg>

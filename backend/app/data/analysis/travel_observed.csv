@@ -1,0 +1,28 @@
+﻿origin_id,dest_id,dest_name,car_min,km,measured_at,source,note,departure_at,directed
+airport,area:jocheon,조천읍,33,16.9,2026-09-28,kakao-map-2026-09-28 (돌담랩_권역 후보 비교표_초안),"카카오맵 자동차 길찾기, 제주국제공항→각 읍사무소, 9/28(월) 저녁 실시간 교통 기준 (시간대별 변동 있음)",,
+airport,area:sehwa,구좌읍,59,38.2,2026-09-28,kakao-map-2026-09-28 (돌담랩_권역 후보 비교표_초안),"카카오맵 자동차 길찾기, 제주국제공항→각 읍사무소, 9/28(월) 저녁 실시간 교통 기준 (시간대별 변동 있음)",,
+place:yerim-1,airport,제주국제공항,39,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-2,airport,제주국제공항,33,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-3,airport,제주국제공항,41,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-4,airport,제주국제공항,38,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-5,airport,제주국제공항,41,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:hamdeok-beach,airport,제주국제공항,41,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-7,airport,제주국제공항,39,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-8,airport,제주국제공항,43,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-9,airport,제주국제공항,43,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-10,airport,제주국제공항,42,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-11,airport,제주국제공항,36,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-12,airport,제주국제공항,40,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-13,airport,제주국제공항,33,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-14,airport,제주국제공항,36,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-15,airport,제주국제공항,37,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-16,airport,제주국제공항,42,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-17,airport,제주국제공항,38,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-18,airport,제주국제공항,49,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-19,airport,제주국제공항,43,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-20,airport,제주국제공항,42,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-21,airport,제주국제공항,45,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:seoubong,airport,제주국제공항,45,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-23,airport,제주국제공항,35,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-24,airport,제주국제공항,45,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1
+place:yerim-25,airport,제주국제공항,40,,2026-10-11,https://drive.google.com/file/d/1dq29c9RVRu7FYdTY9xu5Mouz8Q8ShBYW/view,"카카오맵 예상시간 조회; 미래 출발 기준, 실주행 실측 아님",2026-10-15T14:00:00+09:00,1

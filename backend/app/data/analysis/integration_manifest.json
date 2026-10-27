@@ -1,0 +1,140 @@
+{
+  "version": "team-integration-2026-10-14",
+  "period": "2025.08~2026.07",
+  "region_count": 43,
+  "place_count": 25,
+  "enabled_count": 12,
+  "work_cafes": 4,
+  "excluded": [
+    {
+      "place_id": "yerim-1",
+      "name": "개똥이네 농장",
+      "issue": "운영시간·입장조건 미확인"
+    },
+    {
+      "place_id": "yerim-3",
+      "name": "함덕4구상점가",
+      "issue": "운영시간·입장조건 미확인"
+    },
+    {
+      "place_id": "yerim-4",
+      "name": "제주항일기념관",
+      "issue": "운영시간·입장조건 미확인"
+    },
+    {
+      "place_id": "yerim-7",
+      "name": "제주센트럴파크",
+      "issue": "운영시간·입장조건 미확인"
+    },
+    {
+      "place_id": "yerim-8",
+      "name": "제주햇살농원",
+      "issue": "운영시간·입장조건 미확인"
+    },
+    {
+      "place_id": "yerim-9",
+      "name": "산굼부리",
+      "issue": "운영시간·입장조건 미확인"
+    },
+    {
+      "place_id": "yerim-10",
+      "name": "거문오름",
+      "issue": "운영시간·입장조건 미확인"
+    },
+    {
+      "place_id": "yerim-11",
+      "name": "차만 제주조천점",
+      "issue": "카페 조사 분류: 보류"
+    },
+    {
+      "place_id": "yerim-14",
+      "name": "점점",
+      "issue": "영업시간 역전/익일 종료 확인 필요"
+    },
+    {
+      "place_id": "yerim-16",
+      "name": "해무",
+      "issue": "카페 조사 분류: 보류"
+    },
+    {
+      "place_id": "yerim-17",
+      "name": "동백부엉이",
+      "issue": "카페 조사 분류: 보류"
+    },
+    {
+      "place_id": "yerim-18",
+      "name": "자드부팡",
+      "issue": "장소표와 카페 조사표 주소 불일치"
+    },
+    {
+      "place_id": "yerim-19",
+      "name": "부리부리",
+      "issue": "영업시간 미확인; 카페 조사 분류: 부적합"
+    }
+  ],
+  "assumptions": [
+    "체류시간은 계획값",
+    "야외 09~18시는 주간 방문 가정",
+    "일부 장소 운영정보 미확인으로 제외",
+    "렌터카 차고지·장소 간 이동은 기존 추정식",
+    "월별 최대/평균은 계절 쏠림 지표이며 실시간 혼잡 아님"
+  ],
+  "sources": [
+    {
+      "file": "monthly_indices_JH.csv",
+      "sha256": "7889789f3bc3016514f6c2253e2898b55ba673497fa50e0cf5b37ca287dc8328"
+    },
+    {
+      "file": "quadrant_JH.csv",
+      "sha256": "169665b52f550b2557557f43d219eadc9ae843490d4bf7e5cdcdb40bf9d11326"
+    },
+    {
+      "file": "places_yerim.csv",
+      "sha256": "5308de13dbd7fa3ad5a0c63d29b63fcfea0fd83274f1f057f8371f60ebf4e855"
+    },
+    {
+      "file": "cafes_yerim.csv",
+      "sha256": "517a59f2885127383e0a850758359f4b3abe8923454eb311878306e6a8819790"
+    }
+  ],
+  "target_regions": [
+    {
+      "region": "구좌읍",
+      "region_code": "5011025600",
+      "period": "2025.08~2026.07",
+      "months": 12,
+      "visitors": 6834752.0,
+      "tourist_spend": 78425671666.0,
+      "spend_per_visit": 11474.545333320068,
+      "arrival_mean": 68384.91666666667,
+      "arrival_max": 104422.0,
+      "concentration": 1.5269741500014014,
+      "I_spend": 0.27976190476190477,
+      "사분면": "방문 상위·소비 하위",
+      "arrival_population": "도민 포함 TMAP 이용차량",
+      "visitor_population": "내·외국인 SKT 방문량",
+      "source": "JH monthly_indices.csv; quadrant_12m.csv",
+      "concentration_normalized": 0.3217780781565033,
+      "저집중도": 0.6782219218434967
+    },
+    {
+      "region": "조천읍",
+      "region_code": "5011025900",
+      "period": "2025.08~2026.07",
+      "months": 12,
+      "visitors": 8297092.0,
+      "tourist_spend": 118711915151.0,
+      "spend_per_visit": 14307.653229709878,
+      "arrival_mean": 78954.41666666667,
+      "arrival_max": 100360.0,
+      "concentration": 1.2711131845062498,
+      "I_spend": 0.48412698412698413,
+      "사분면": "방문 상위·소비 하위",
+      "arrival_population": "도민 포함 TMAP 이용차량",
+      "visitor_population": "내·외국인 SKT 방문량",
+      "source": "JH monthly_indices.csv; quadrant_12m.csv",
+      "concentration_normalized": 0.11696936293880016,
+      "저집중도": 0.8830306370611999
+    }
+  ]
+}

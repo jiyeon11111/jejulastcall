@@ -1,0 +1,2594 @@
+[
+  {
+    "id": "rental-e61c2acf8346",
+    "name": "A렌터카허브",
+    "address": "제주 제주시 용담삼동 1141-0",
+    "lat": 33.5196122,
+    "lng": 126.4967948,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5af5b3ee6ab6",
+    "name": "EV전기렌트카",
+    "address": "제주 제주시 용담이동 727-6",
+    "lat": 33.5033264,
+    "lng": 126.5003247,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-525418d67be1",
+    "name": "SK렌터카/제주지점",
+    "address": "제주 제주시 용담이동 723-0",
+    "lat": 33.5034476,
+    "lng": 126.5019501,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7fcfc6e4124f",
+    "name": "SK렌터카/제주지점",
+    "address": "제주 제주시 용담이동 730-2",
+    "lat": 33.5037523,
+    "lng": 126.5013621,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-40a19ec9501e",
+    "name": "가자제주렌트카",
+    "address": "제주 제주시 용담이동 1721-2",
+    "lat": 33.4985862,
+    "lng": 126.4977236,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-dce236ce7494",
+    "name": "갤럭시렌터카",
+    "address": "제주 제주시 도두이동 1106-1",
+    "lat": 33.4995582,
+    "lng": 126.480114,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-133e1e3f64b1",
+    "name": "경동렌트카",
+    "address": "제주 제주시 노형동 3703-2",
+    "lat": 33.4840876,
+    "lng": 126.4619767,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-fa03f5d4da91",
+    "name": "경동렌트카/제주지점",
+    "address": "제주 제주시 이호일동 296-1",
+    "lat": 33.499477,
+    "lng": 126.4629764,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1bd45ff8aca4",
+    "name": "고고씽렌트카",
+    "address": "제주 제주시 도두일동 1576",
+    "lat": 33.5069463,
+    "lng": 126.476392,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-2ad23e5286ba",
+    "name": "굿모닝렌트카",
+    "address": "제주 제주시 용담이동 1677-1",
+    "lat": 33.5000027,
+    "lng": 126.4973903,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b8c24eb1c7ab",
+    "name": "그린존/제주국제공항",
+    "address": "제주 제주시 용담이동 804-0",
+    "lat": 33.5081963,
+    "lng": 126.5038341,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-feabb863e41c",
+    "name": "그린카/제주를그린존",
+    "address": "제주 제주시 용담삼동 968-0",
+    "lat": 33.51459,
+    "lng": 126.5008364,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a27fdc088562",
+    "name": "금강렌트카",
+    "address": "제주 제주시 오라이동 2823",
+    "lat": 33.4886287,
+    "lng": 126.5055333,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-665d7ceeec21",
+    "name": "금강렌트카",
+    "address": "제주 제주시 오라이동 2823-0",
+    "lat": 33.4886287,
+    "lng": 126.5055333,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c141e7e1342e",
+    "name": "금강렌트카",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5155565,
+    "lng": 126.4909952,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-59d00ab6c377",
+    "name": "금강렌트카",
+    "address": "제주 제주시 용담이동 1610-0",
+    "lat": 33.5036745,
+    "lng": 126.4953006,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-66501ce86890",
+    "name": "금강렌트카",
+    "address": "제주 제주시 용담이동 802-0",
+    "lat": 33.5083079,
+    "lng": 126.5047217,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6062c9d35427",
+    "name": "녹원렌터카",
+    "address": "제주 제주시 도두일동 2235",
+    "lat": 33.497921,
+    "lng": 126.4712876,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-fe2e398de1f8",
+    "name": "녹원렌터카",
+    "address": "제주 제주시 도두일동 2235-0",
+    "lat": 33.497921,
+    "lng": 126.4712876,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7e4fe59f88ea",
+    "name": "뉴대한렌트카",
+    "address": "제주 제주시 오라이동 2045-1",
+    "lat": 33.4903222,
+    "lng": 126.5066575,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-0265927ea532",
+    "name": "뉴제주렌트카",
+    "address": "제주 제주시 용담이동 859-0",
+    "lat": 33.5099183,
+    "lng": 126.5025564,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ffa8b54d1d7a",
+    "name": "뉴제주렌트카",
+    "address": "제주 제주시 용담이동 859-0",
+    "lat": 33.5099062,
+    "lng": 126.5025653,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7f32bfa07fb9",
+    "name": "대진렌트카",
+    "address": "제주 제주시 용담이동 2741-1",
+    "lat": 33.5032246,
+    "lng": 126.5050563,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-dc838b5d504e",
+    "name": "더세븐렌트카",
+    "address": "제주 제주시 도두일동 2159-1",
+    "lat": 33.4975738,
+    "lng": 126.4720213,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5543c3ce7194",
+    "name": "더세븐렌트카",
+    "address": "제주 제주시 용담삼동 1141",
+    "lat": 33.5195933,
+    "lng": 126.4968387,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-fe1308e49d13",
+    "name": "더세븐렌트카",
+    "address": "제주 제주시 용담삼동 1141-0",
+    "lat": 33.5195933,
+    "lng": 126.4968387,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d4d71a71c5c6",
+    "name": "더세븐렌트카",
+    "address": "제주 제주시 용담삼동 1181-1",
+    "lat": 33.518334,
+    "lng": 126.4959181,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-9461cf6f33c0",
+    "name": "더세이프렌터카",
+    "address": "제주 제주시 용담이동 2739-0",
+    "lat": 33.503419,
+    "lng": 126.5051951,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-53b4f28cd7e8",
+    "name": "더세이프렌터카",
+    "address": "제주 제주시 용담이동 732",
+    "lat": 33.504637,
+    "lng": 126.499633,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1f919d7582ea",
+    "name": "더세이프렌터카",
+    "address": "제주 제주시 용담이동 732-0",
+    "lat": 33.5046994,
+    "lng": 126.4995761,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-fdf3bf2a9a69",
+    "name": "더세이프렌터카",
+    "address": "제주 제주시 용담이동 732-0",
+    "lat": 33.504637,
+    "lng": 126.499633,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-75cc0a30db68",
+    "name": "돌하루팡렌트카",
+    "address": "제주 제주시 연동 300-1",
+    "lat": 33.493309,
+    "lng": 126.4962793,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-8a6355839c2c",
+    "name": "디렌트카",
+    "address": "제주 제주시 용담이동 1942-0",
+    "lat": 33.5028753,
+    "lng": 126.4929871,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-9896583faf68",
+    "name": "디알렌트카",
+    "address": "제주 제주시 용담삼동 1175-1",
+    "lat": 33.5182507,
+    "lng": 126.4951959,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-0c5c1bd61710",
+    "name": "땡큐제주렌트카",
+    "address": "제주 제주시 용담삼동 1032-3",
+    "lat": 33.5154757,
+    "lng": 126.5032834,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-0a506c5694a2",
+    "name": "땡큐제주렌트카",
+    "address": "제주 제주시 용담이동 1963-30",
+    "lat": 33.5035498,
+    "lng": 126.4948877,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-051eb953b911",
+    "name": "레드캡렌터카/제주지점",
+    "address": "제주 제주시 용담이동 1959-1",
+    "lat": 33.5031611,
+    "lng": 126.4937473,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-790d9d2ffdcd",
+    "name": "레드캡렌터카/제주지점",
+    "address": "제주 제주시 용담이동 1959-1",
+    "lat": 33.5033079,
+    "lng": 126.4938628,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-33c8f20741a8",
+    "name": "레인보우모빌리티",
+    "address": "제주 제주시 도두일동 2159-1",
+    "lat": 33.4975767,
+    "lng": 126.4720556,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-bd779b694330",
+    "name": "레인보우모빌리티",
+    "address": "제주 제주시 오라삼동 2334-16",
+    "lat": 33.4997071,
+    "lng": 126.5066019,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-94a475b7cb4a",
+    "name": "레인보우모빌리티",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5156398,
+    "lng": 126.4908907,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d923337e4d68",
+    "name": "레츠고렌트카",
+    "address": "제주 제주시 용담이동 941-8",
+    "lat": 33.5122791,
+    "lng": 126.5026675,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-070f9b2a13d5",
+    "name": "렌트파크",
+    "address": "제주 제주시 용담이동 859-0",
+    "lat": 33.5099183,
+    "lng": 126.5025564,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e0d64b6fa8b1",
+    "name": "로그인렌트카",
+    "address": "제주 제주시 도두이동 414-5",
+    "lat": 33.5026968,
+    "lng": 126.4862801,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d11030ed8e20",
+    "name": "로보트렌터카",
+    "address": "제주 제주시 도두일동 1375-2",
+    "lat": 33.5000838,
+    "lng": 126.4782285,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6691237abbfc",
+    "name": "로보트렌터카",
+    "address": "제주 제주시 용담삼동 2220",
+    "lat": 33.5156535,
+    "lng": 126.4910025,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-9b7cdbb95df4",
+    "name": "로보트렌터카",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5156535,
+    "lng": 126.4910025,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1c46da12c972",
+    "name": "로보트렌터카",
+    "address": "제주 제주시 용담이동 878-2",
+    "lat": 33.510196,
+    "lng": 126.5027231,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b851345702dd",
+    "name": "로얄렌트카",
+    "address": "제주 제주시 도두일동 1168-0",
+    "lat": 33.4978545,
+    "lng": 126.480088,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ea15c9d91177",
+    "name": "롯데렌터카/제주공항지점",
+    "address": "제주 제주시 용담이동 2002",
+    "lat": 33.504692,
+    "lng": 126.4920104,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6549a6a1a514",
+    "name": "롯데렌터카/제주공항지점",
+    "address": "제주 제주시 용담이동 2002-0",
+    "lat": 33.504692,
+    "lng": 126.4920104,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-3b3b1e6ce572",
+    "name": "롯데렌터카/제주롯데호텔지점",
+    "address": "제주 서귀포시 색달동 2812-4",
+    "lat": 33.2484744,
+    "lng": 126.410538,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-570a31c0aa11",
+    "name": "롯데렌터카/제주오토하우스지점",
+    "address": "제주 제주시 용담이동 855",
+    "lat": 33.5091406,
+    "lng": 126.5030008,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-923485fbf30c",
+    "name": "롯데렌터카/제주오토하우스지점",
+    "address": "제주 제주시 용담이동 855-0",
+    "lat": 33.5091406,
+    "lng": 126.5030008,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-358cf3d39226",
+    "name": "매일 렌트카",
+    "address": "제주 제주시 용담이동 917-11",
+    "lat": 33.511807,
+    "lng": 126.502112,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-006265d9bfdf",
+    "name": "매일 렌트카",
+    "address": "제주 제주시 용담이동 917-11",
+    "lat": 33.511801,
+    "lng": 126.5021654,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-42fbd694eeea",
+    "name": "메이저렌트카",
+    "address": "제주 제주시 도두일동 1168-0",
+    "lat": 33.4978084,
+    "lng": 126.480114,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ef3a03fe71c4",
+    "name": "메트로렌터카",
+    "address": "제주 제주시 이호이동 168",
+    "lat": 33.4932811,
+    "lng": 126.4678095,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c5365496331e",
+    "name": "메트로렌터카",
+    "address": "제주 제주시 이호이동 168-0",
+    "lat": 33.4932811,
+    "lng": 126.4678095,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f6aa62a233af",
+    "name": "무지개렌트카",
+    "address": "제주 제주시 도두이동 1158",
+    "lat": 33.4966141,
+    "lng": 126.483086,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6e845f4d8648",
+    "name": "무지개렌트카",
+    "address": "제주 제주시 도두이동 1158-0",
+    "lat": 33.4966141,
+    "lng": 126.483086,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-01bc4a593a2f",
+    "name": "바로렌트카",
+    "address": "제주 제주시 오라이동 2045-1",
+    "lat": 33.4903297,
+    "lng": 126.5066606,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1d4a8cd6fc77",
+    "name": "바로렌트카",
+    "address": "제주 제주시 용담이동 1527-2",
+    "lat": 33.5044645,
+    "lng": 126.4978762,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-2ac956ffde54",
+    "name": "발리렌트카",
+    "address": "제주 제주시 이호일동 315-9",
+    "lat": 33.5005303,
+    "lng": 126.4634487,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e558cf9ec125",
+    "name": "버젯렌트카",
+    "address": "제주 제주시 노형동 3742-3",
+    "lat": 33.4844209,
+    "lng": 126.4612268,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b37ec61641bc",
+    "name": "베스트",
+    "address": "제주 제주시 도두이동 414-5",
+    "lat": 33.5027246,
+    "lng": 126.4862523,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d3a34a6055fe",
+    "name": "보고타렌터카",
+    "address": "제주 제주시 연동 1979",
+    "lat": 33.4940589,
+    "lng": 126.4864468,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6eb456be2769",
+    "name": "보고타렌터카",
+    "address": "제주 제주시 연동 1979-0",
+    "lat": 33.4940589,
+    "lng": 126.4864468,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-4c890b647bec",
+    "name": "블루렌트카",
+    "address": "제주 제주시 도두이동 106-2",
+    "lat": 33.5001415,
+    "lng": 126.4906131,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f8f5a293f4f1",
+    "name": "블루렌트카",
+    "address": "제주 제주시 용담삼동 1141",
+    "lat": 33.5195656,
+    "lng": 126.4967957,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-be28c926c0db",
+    "name": "블루렌트카",
+    "address": "제주 제주시 용담이동 1524-0",
+    "lat": 33.5045376,
+    "lng": 126.4975038,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-09b694c54923",
+    "name": "블루렌트카",
+    "address": "제주 제주시 용담이동 1524-12",
+    "lat": 33.5048674,
+    "lng": 126.4983933,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-43668b2dfcea",
+    "name": "블루렌트카/반납센터",
+    "address": "제주 제주시 용담이동 1524",
+    "lat": 33.5045376,
+    "lng": 126.4975038,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-bdf4a7d05b2f",
+    "name": "블루렌트카/반납센터",
+    "address": "제주 제주시 용담이동 1524-0",
+    "lat": 33.5045376,
+    "lng": 126.4975038,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-34a7961cb223",
+    "name": "빌리카",
+    "address": "제주 제주시 용담이동 723-0",
+    "lat": 33.5034478,
+    "lng": 126.5019231,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1e6480cb3b69",
+    "name": "빌리카",
+    "address": "제주 제주시 용담이동 730-10",
+    "lat": 33.5040023,
+    "lng": 126.5009733,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5cbf7695e3c1",
+    "name": "빌리카",
+    "address": "제주 제주시 용담이동 730-2",
+    "lat": 33.5037523,
+    "lng": 126.5013621,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ad6a7f53a8ae",
+    "name": "빌리카",
+    "address": "제주 제주시 이호일동 1898-5",
+    "lat": 33.4938155,
+    "lng": 126.4500173,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-9a66bbb2e4b5",
+    "name": "수렌트카/제주본사",
+    "address": "제주 제주시 이호이동 1563-0",
+    "lat": 33.4933366,
+    "lng": 126.4558106,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-47bdecb9c0ac",
+    "name": "수렌트카/제주본사",
+    "address": "제주 제주시 이호이동 1563-0",
+    "lat": 33.4933302,
+    "lng": 126.4558201,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-dc0b90e80e1f",
+    "name": "스마트렌트카",
+    "address": "제주 제주시 이호이동 1112-2",
+    "lat": 33.4895037,
+    "lng": 126.4600324,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-057ddb00c652",
+    "name": "스타렌트카/반납센터",
+    "address": "제주 제주시 용담이동 1524",
+    "lat": 33.5048243,
+    "lng": 126.4980061,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e5a0f24d60bb",
+    "name": "스타렌트카/반납센터",
+    "address": "제주 제주시 용담이동 1524-0",
+    "lat": 33.5047624,
+    "lng": 126.4977256,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d8426f1f71f5",
+    "name": "스타렌트카/반납센터",
+    "address": "제주 제주시 용담이동 1524-0",
+    "lat": 33.5048243,
+    "lng": 126.4980061,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-13f13b1ed3f8",
+    "name": "신동아렌터카",
+    "address": "제주 제주시 이호이동 168",
+    "lat": 33.4932943,
+    "lng": 126.4677647,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7fec00d11694",
+    "name": "신동아렌터카",
+    "address": "제주 제주시 이호이동 168-0",
+    "lat": 33.4932943,
+    "lng": 126.4677647,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-64ea9a97e2e9",
+    "name": "써니빌렌트카",
+    "address": "제주 제주시 노형동 3692",
+    "lat": 33.4826434,
+    "lng": 126.4623934,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-503082c4cef4",
+    "name": "써니빌렌트카",
+    "address": "제주 제주시 노형동 3692-0",
+    "lat": 33.4826434,
+    "lng": 126.4623934,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7cea4041dc82",
+    "name": "쏘카",
+    "address": "제주 제주시 연동 2333-8",
+    "lat": 33.4930034,
+    "lng": 126.4906687,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-dae9457643b3",
+    "name": "쏘카",
+    "address": "제주 제주시 오라삼동 2094-2",
+    "lat": 33.4901779,
+    "lng": 126.5056072,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-da7a0072873f",
+    "name": "쏘카/GSC스마트플러스허브주차장",
+    "address": "제주 제주시 용담이동 1611-2",
+    "lat": 33.5024903,
+    "lng": 126.4959703,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-646d8af7eb7c",
+    "name": "쏘카존/노형동정존마을회관",
+    "address": "제주 제주시 노형동 2517-1",
+    "lat": 33.4825045,
+    "lng": 126.4718648,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d75e3cacd011",
+    "name": "쏘카존/노형현대해상옆",
+    "address": "제주 제주시 노형동 1295-13",
+    "lat": 33.4875873,
+    "lng": 126.4814195,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-70b4803eb231",
+    "name": "쏘카존/뉴크라운호텔앞",
+    "address": "제주 제주시 연동 263-11",
+    "lat": 33.4845877,
+    "lng": 126.4895855,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f7199e9e8d8f",
+    "name": "쏘카존/상록회관옆",
+    "address": "제주 제주시 이도일동 1289-26",
+    "lat": 33.5038635,
+    "lng": 126.5271099,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-048001afa8e3",
+    "name": "쏘카존/서귀포시청제1청사부근",
+    "address": "제주 서귀포시 서홍동 441-2",
+    "lat": 33.2535578,
+    "lng": 126.5604418,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e007b0e51772",
+    "name": "쏘카존/서귀포신시가지",
+    "address": "제주 서귀포시 법환동 870-0",
+    "lat": 33.2477805,
+    "lng": 126.5107794,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-34120bd9d484",
+    "name": "쏘카존/서귀포오션팰리스호텔",
+    "address": "제주 서귀포시 서귀동 494-0",
+    "lat": 33.2460586,
+    "lng": 126.5622473,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-02c58ad72018",
+    "name": "쏘카존/수협은행일도지점옆",
+    "address": "제주 제주시 일도이동 409-11",
+    "lat": 33.5048079,
+    "lng": 126.5418586,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-8dd1405477ae",
+    "name": "쏘카존/썬호텔",
+    "address": "제주 제주시 연동 291-30",
+    "lat": 33.490226,
+    "lng": 126.4942517,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6c663b48232c",
+    "name": "쏘카존/연동부영1차아파트앞",
+    "address": "제주 제주시 노형동 728-2",
+    "lat": 33.4813103,
+    "lng": 126.4857803,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-813416720392",
+    "name": "쏘카존/웨이뷰협재바다카페2주차장",
+    "address": "제주 제주시 한림읍 옹포리 384-6",
+    "lat": 33.4068829,
+    "lng": 126.2540325,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f55e06b0ab42",
+    "name": "쏘카존/전자랜드신제주점",
+    "address": "제주 제주시 노형동 1296-9",
+    "lat": 33.4873374,
+    "lng": 126.480864,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-2d4900d35219",
+    "name": "쏘카존/전자랜드제주점",
+    "address": "제주 제주시 삼도일동 751-2",
+    "lat": 33.5095017,
+    "lng": 126.5195272,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-84822c4bf0bc",
+    "name": "쏘카존/제주공항",
+    "address": "제주 제주시 도두이동 162-4",
+    "lat": 33.49392,
+    "lng": 126.4913075,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f444235aa9bd",
+    "name": "쏘카존/제주공항앞",
+    "address": "제주 제주시 용담이동 1969-0",
+    "lat": 33.5041559,
+    "lng": 126.4946733,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c94c7b8ad32f",
+    "name": "쏘카존/제주공항입구교차로",
+    "address": "제주 제주시 용담이동 1611-0",
+    "lat": 33.5041411,
+    "lng": 126.4953904,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b4832ba46924",
+    "name": "쏘카존/제주대정문주차장",
+    "address": "제주 제주시 아라일동 1-0",
+    "lat": 33.4598685,
+    "lng": 126.5625238,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d319cfd171a3",
+    "name": "쏘카존/제주대후문주차장",
+    "address": "제주 제주시 아라일동 1-0",
+    "lat": 33.4496196,
+    "lng": 126.5580242,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-de27d7aca044",
+    "name": "쏘카존/제주시외버스터미널",
+    "address": "제주 제주시 오라일동 2441-3",
+    "lat": 33.4997528,
+    "lng": 126.514361,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6e385723985e",
+    "name": "쏘카존/제주신화월드직원기숙사H동",
+    "address": "제주 서귀포시 안덕면 서광리 산 35-22",
+    "lat": 33.2964989,
+    "lng": 126.3081277,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-3d18c5fbe557",
+    "name": "쏘카존/제주영락교회앞",
+    "address": "제주 제주시 일도이동 488-2",
+    "lat": 33.5105573,
+    "lng": 126.5437473,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-4dec1f72fb9b",
+    "name": "쏘카존/제주터미널",
+    "address": "제주 제주시 도두이동 354",
+    "lat": 33.5018364,
+    "lng": 126.488116,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-4b8f884b43d0",
+    "name": "쏘카존/제주터미널",
+    "address": "제주 제주시 도두이동 354-0",
+    "lat": 33.5018364,
+    "lng": 126.488116,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d90634483173",
+    "name": "쏘카존/중문관광단지",
+    "address": "제주 서귀포시 색달동 2822-4",
+    "lat": 33.2483356,
+    "lng": 126.4120101,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c1e25582b81b",
+    "name": "쏘카존/카케이존",
+    "address": "제주 제주시 용담이동 1969",
+    "lat": 33.5041559,
+    "lng": 126.4946733,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-2792d912fba9",
+    "name": "쏘카존/카케이존",
+    "address": "제주 제주시 용담이동 1969-0",
+    "lat": 33.5041559,
+    "lng": 126.4946733,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-4b098e44abd6",
+    "name": "쏘카존/카케이주차장B",
+    "address": "제주 제주시 도두이동 39-2",
+    "lat": 33.5022875,
+    "lng": 126.4903621,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5a92e9a73ddb",
+    "name": "쏘카존/한라대기숙사앞",
+    "address": "제주 제주시 노형동 1584-0",
+    "lat": 33.475672,
+    "lng": 126.4751145,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-63131f40bb43",
+    "name": "쏘카존/한라병원옆",
+    "address": "제주 제주시 연동 2322-7",
+    "lat": 33.4910314,
+    "lng": 126.4859469,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-13481e4b7ae4",
+    "name": "씨유렌트카",
+    "address": "제주 제주시 도두일동 1175-1",
+    "lat": 33.4984218,
+    "lng": 126.4788336,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b8f957707e5b",
+    "name": "씨유렌트카",
+    "address": "제주 제주시 도두일동 1375-2",
+    "lat": 33.5000906,
+    "lng": 126.4782173,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e9ae8f5a4676",
+    "name": "씨유렌트카",
+    "address": "제주 제주시 용담삼동 2221",
+    "lat": 33.5151677,
+    "lng": 126.4915018,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c749e77175e0",
+    "name": "씨유렌트카",
+    "address": "제주 제주시 용담삼동 2221-0",
+    "lat": 33.5151677,
+    "lng": 126.4915018,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-189f6c5763b5",
+    "name": "아라렌트카",
+    "address": "제주 제주시 용담이동 941-8",
+    "lat": 33.5125291,
+    "lng": 126.5026675,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-46eb17f26311",
+    "name": "아리랑렌트카",
+    "address": "제주 제주시 용담삼동 970-3",
+    "lat": 33.5148344,
+    "lng": 126.5018898,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b150a83770b6",
+    "name": "아마노렌터카",
+    "address": "제주 제주시 용담삼동 1141",
+    "lat": 33.5196122,
+    "lng": 126.4967948,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6ac295930f59",
+    "name": "아이러브렌트카",
+    "address": "제주 제주시 용담삼동 2220-1",
+    "lat": 33.515501,
+    "lng": 126.4910296,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e02c48026abf",
+    "name": "에스제이렌트카",
+    "address": "제주 제주시 도두일동 1286-1",
+    "lat": 33.4984619,
+    "lng": 126.4770036,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-9e762a52a782",
+    "name": "에스제이렌트카",
+    "address": "제주 제주시 도두일동 1375-2",
+    "lat": 33.4998637,
+    "lng": 126.4782808,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-0d68095b9b50",
+    "name": "에이스렌트카",
+    "address": "제주 제주시 도두이동 968-1",
+    "lat": 33.5031089,
+    "lng": 126.4825762,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ea21fb176ed2",
+    "name": "엠스타제주",
+    "address": "제주 제주시 용담삼동 997-4",
+    "lat": 33.5154177,
+    "lng": 126.5041674,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-cbca3e3ce8b8",
+    "name": "예스렌트카",
+    "address": "제주 제주시 도두일동 1376-1",
+    "lat": 33.4999193,
+    "lng": 126.478253,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-137f8e938b51",
+    "name": "오라렌트카",
+    "address": "제주 제주시 도두일동 1168",
+    "lat": 33.4974219,
+    "lng": 126.4797768,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-8b7e219d6538",
+    "name": "오라렌트카",
+    "address": "제주 제주시 도두일동 1168-0",
+    "lat": 33.4974219,
+    "lng": 126.4797768,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-58b33270e8ba",
+    "name": "오렌지렌트카",
+    "address": "제주 제주시 연동 353-1",
+    "lat": 33.4856857,
+    "lng": 126.5020492,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d335c75d1717",
+    "name": "오름렌트카",
+    "address": "제주 제주시 도두일동 2159-1",
+    "lat": 33.4975862,
+    "lng": 126.4721147,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7a20dd45a92a",
+    "name": "올래렌트카",
+    "address": "제주 제주시 내도동 135-3",
+    "lat": 33.487726,
+    "lng": 126.4426728,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-17d2b3761dd7",
+    "name": "올레렌트카",
+    "address": "제주 제주시 이호이동 1575-0",
+    "lat": 33.4950031,
+    "lng": 126.456616,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f73632cdd8e6",
+    "name": "용두암렌트카",
+    "address": "제주 제주시 용담삼동 2220",
+    "lat": 33.5156398,
+    "lng": 126.4908907,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-642a2d68d896",
+    "name": "용두암렌트카",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5156398,
+    "lng": 126.4908907,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ef30ecc7ced3",
+    "name": "용두암렌트카",
+    "address": "제주 제주시 용담이동 905-2",
+    "lat": 33.5108626,
+    "lng": 126.5025287,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-3685e02dd0f9",
+    "name": "우도렌트",
+    "address": "제주 제주시 우도면 연평리 1749",
+    "lat": 33.4937275,
+    "lng": 126.951018,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c98ff3d1287d",
+    "name": "우도렌트",
+    "address": "제주 제주시 우도면 연평리 1749-0",
+    "lat": 33.4937275,
+    "lng": 126.951018,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-19c7d1f810ee",
+    "name": "우도전기렌트카",
+    "address": "제주 제주시 우도면 연평리 2389",
+    "lat": 33.510908,
+    "lng": 126.9436261,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-24101e3805fe",
+    "name": "우도전기렌트카",
+    "address": "제주 제주시 우도면 연평리 2389-0",
+    "lat": 33.510908,
+    "lng": 126.9436261,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6fa79e5b89a2",
+    "name": "우도전동차렌트",
+    "address": "제주 제주시 우도면 연평리 2058",
+    "lat": 33.5052238,
+    "lng": 126.9498616,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-774b44520937",
+    "name": "우도전동차렌트",
+    "address": "제주 제주시 우도면 연평리 2058-0",
+    "lat": 33.5052238,
+    "lng": 126.9498616,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f2b7120b4053",
+    "name": "월드렌트카",
+    "address": "제주 제주시 도두일동 2248-1",
+    "lat": 33.4964752,
+    "lng": 126.4722536,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1b8db9b023e1",
+    "name": "인터파크렌터카",
+    "address": "제주 제주시 용담이동 2739-0",
+    "lat": 33.5037245,
+    "lng": 126.5056951,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-323e980246d8",
+    "name": "일번렌트카",
+    "address": "제주 제주시 도두이동 412-1",
+    "lat": 33.5032561,
+    "lng": 126.4869925,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-27d3ef577def",
+    "name": "자보렌트카",
+    "address": "제주 제주시 도평동 1079-0",
+    "lat": 33.4698392,
+    "lng": 126.4499223,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a5c7958b0f0f",
+    "name": "자유렌터카",
+    "address": "제주 제주시 도두일동 1375-2",
+    "lat": 33.5000859,
+    "lng": 126.4778919,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f40b60a84ab7",
+    "name": "장수렌트카",
+    "address": "제주 제주시 노형동 1156-4",
+    "lat": 33.4917813,
+    "lng": 126.4738923,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-2b177a5ab81f",
+    "name": "장수렌트카",
+    "address": "제주 제주시 이호이동 168",
+    "lat": 33.4933089,
+    "lng": 126.4677817,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-33dd5260f7ff",
+    "name": "재경렌트카",
+    "address": "제주 제주시 애월읍 신엄리 726",
+    "lat": 33.4697278,
+    "lng": 126.3732622,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7d8658832501",
+    "name": "재경렌트카",
+    "address": "제주 제주시 애월읍 신엄리 726-0",
+    "lat": 33.4697278,
+    "lng": 126.3732622,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b2d868c65945",
+    "name": "전연령렌트카",
+    "address": "제주 제주시 도평동 13-1",
+    "lat": 33.479477,
+    "lng": 126.4596714,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-05f8e584955b",
+    "name": "제시카",
+    "address": "제주 제주시 연동 2332-9",
+    "lat": 33.4927812,
+    "lng": 126.4903631,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1071bc350afd",
+    "name": "제시카존",
+    "address": "제주 제주시 용담이동 1610-0",
+    "lat": 33.503669,
+    "lng": 126.4952515,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-777bc02492a4",
+    "name": "제주e렌터카",
+    "address": "제주 제주시 이호이동 200-4",
+    "lat": 33.4939286,
+    "lng": 126.4648581,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-42080f19a779",
+    "name": "제주e렌트카/반납",
+    "address": "제주 제주시 용담삼동 1181-1",
+    "lat": 33.518134,
+    "lng": 126.4958786,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-4803704a577a",
+    "name": "제주공항렌트카/본사",
+    "address": "제주 제주시 도두이동 390-6",
+    "lat": 33.501695,
+    "lng": 126.4893135,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5c05334618c5",
+    "name": "제주공항렌트카/본사",
+    "address": "제주 제주시 도두이동 390-6",
+    "lat": 33.501707,
+    "lng": 126.4893524,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ad6f91d8d940",
+    "name": "제주다움렌터카",
+    "address": "제주 제주시 도두일동 1175-1",
+    "lat": 33.4984032,
+    "lng": 126.4788332,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5e8363062ccc",
+    "name": "제주다움렌터카",
+    "address": "제주 제주시 용담삼동 1200-1",
+    "lat": 33.5177507,
+    "lng": 126.4974457,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-aabc886704c7",
+    "name": "제주더렌트카",
+    "address": "제주 제주시 도두이동 1115-1",
+    "lat": 33.4981973,
+    "lng": 126.4806139,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-154a3cf5ee26",
+    "name": "제주더렌트카",
+    "address": "제주 제주시 애월읍 하귀2리 2687",
+    "lat": 33.4846984,
+    "lng": 126.3935382,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-bf414ec792e7",
+    "name": "제주도렌트카협동조합",
+    "address": "제주 제주시 도두이동 1115-1",
+    "lat": 33.4982528,
+    "lng": 126.4804473,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1df8bfd19ee5",
+    "name": "제주도와이앤렌트카",
+    "address": "제주 제주시 용담이동 859-0",
+    "lat": 33.5099183,
+    "lng": 126.5025009,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ec271249bc19",
+    "name": "제주드림렌트카",
+    "address": "제주 제주시 용담이동 1721-2",
+    "lat": 33.4985411,
+    "lng": 126.4977025,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-dc1788daf285",
+    "name": "제주드림렌트카",
+    "address": "제주 제주시 이호이동 168",
+    "lat": 33.4928812,
+    "lng": 126.4676274,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c313147e0d6a",
+    "name": "제주드림렌트카",
+    "address": "제주 제주시 이호이동 168-0",
+    "lat": 33.4928812,
+    "lng": 126.4676274,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-50908471917a",
+    "name": "제주라인렌트카",
+    "address": "제주 제주시 용담이동 1554-2",
+    "lat": 33.5034745,
+    "lng": 126.4996678,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-da259cedc921",
+    "name": "제주렌트카/공항지점",
+    "address": "제주 제주시 용담이동 2002",
+    "lat": 33.5069741,
+    "lng": 126.4931128,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-9b4745e4fbf9",
+    "name": "제주렌트카/공항지점",
+    "address": "제주 제주시 용담이동 2002-0",
+    "lat": 33.5069741,
+    "lng": 126.4931128,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-3c117f3378c7",
+    "name": "제주렌트카/본사",
+    "address": "제주 제주시 용담이동 1531-1",
+    "lat": 33.5049826,
+    "lng": 126.497182,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-fcfc8c7f6e43",
+    "name": "제주렌트카/신라호텔지점",
+    "address": "제주 서귀포시 색달동 3039-3",
+    "lat": 33.2474745,
+    "lng": 126.4079272,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-889f1593d297",
+    "name": "제주로렌트카",
+    "address": "제주 제주시 도두이동 1106-1",
+    "lat": 33.4996138,
+    "lng": 126.4797807,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b900ae8e2741",
+    "name": "제주마음렌트카",
+    "address": "제주 제주시 용담삼동 1032-3",
+    "lat": 33.5155288,
+    "lng": 126.5033897,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-74b1c57b3610",
+    "name": "제주마음렌트카",
+    "address": "제주 제주시 용담이동 859-0",
+    "lat": 33.5099183,
+    "lng": 126.5025564,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-8574abff8f7d",
+    "name": "제주명품렌트카",
+    "address": "제주 제주시 용담삼동 1181-5",
+    "lat": 33.5177785,
+    "lng": 126.4960014,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-02d9e06c25fd",
+    "name": "제주몬",
+    "address": "제주 제주시 용담이동 1590-3",
+    "lat": 33.5052521,
+    "lng": 126.4967514,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5aa33600be1e",
+    "name": "제주미래렌트카",
+    "address": "제주 제주시 용담삼동 1181-1",
+    "lat": 33.5180285,
+    "lng": 126.4959458,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ffe99a5ff554",
+    "name": "제주바다렌트카",
+    "address": "제주 제주시 도두일동 2159-1",
+    "lat": 33.497584,
+    "lng": 126.4720725,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a3f494710579",
+    "name": "제주사랑렌트카",
+    "address": "제주 제주시 연동 353-1",
+    "lat": 33.485671,
+    "lng": 126.5019177,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a06940f4e110",
+    "name": "제주사랑렌트카",
+    "address": "제주 제주시 용담삼동 2221",
+    "lat": 33.5151398,
+    "lng": 126.4914878,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c4d5bf0eef39",
+    "name": "제주사랑렌트카",
+    "address": "제주 제주시 용담삼동 2221-0",
+    "lat": 33.5151398,
+    "lng": 126.4914878,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-60cf32d5f457",
+    "name": "제주삼성렌트카",
+    "address": "제주 제주시 노형동 3072-1",
+    "lat": 33.4808936,
+    "lng": 126.463921,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a438fda790ac",
+    "name": "제주삼성렌트카",
+    "address": "제주 제주시 도두일동 1175-1",
+    "lat": 33.4980306,
+    "lng": 126.4793363,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-82aa2446b40c",
+    "name": "제주스타렌터카/제주지점",
+    "address": "제주 제주시 용담이동 1524-12",
+    "lat": 33.5048845,
+    "lng": 126.4983786,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-4ae748bf12a9",
+    "name": "제주신화렌트카",
+    "address": "제주 제주시 노형동 3606-1",
+    "lat": 33.4798659,
+    "lng": 126.4615046,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f601b8b0ac3d",
+    "name": "제주아산렌트카",
+    "address": "제주 제주시 오라삼동 2853-1",
+    "lat": 33.489615,
+    "lng": 126.5055563,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e08c791c8d82",
+    "name": "제주아이엔지",
+    "address": "제주 제주시 도두일동 1286-1",
+    "lat": 33.4984564,
+    "lng": 126.4770135,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ed27bb2f7739",
+    "name": "제주아이엔지",
+    "address": "제주 제주시 용담삼동 2296-2",
+    "lat": 33.5185206,
+    "lng": 126.4939206,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c9113610f00e",
+    "name": "제주알프스렌트카",
+    "address": "제주 제주시 오라이동 2045-1",
+    "lat": 33.4903371,
+    "lng": 126.506834,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f766108d6894",
+    "name": "제주알프스렌트카",
+    "address": "제주 제주시 오라이동 2093-1",
+    "lat": 33.4895993,
+    "lng": 126.5066367,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-2e1acbfef31c",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 도두일동 1174-0",
+    "lat": 33.4985583,
+    "lng": 126.4795585,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-4caeffb53df4",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 도두일동 1175-1",
+    "lat": 33.4984068,
+    "lng": 126.4788323,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e31d2962524f",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 도두일동 1175-1",
+    "lat": 33.4984168,
+    "lng": 126.478836,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-626cf433168a",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 용담삼동 1141-0",
+    "lat": 33.5195839,
+    "lng": 126.4968069,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f894185aaf44",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 용담삼동 1181-1",
+    "lat": 33.518335,
+    "lng": 126.4959065,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-41afae3c43e6",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 용담이동 1524-0",
+    "lat": 33.5048339,
+    "lng": 126.4980175,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7c9b817bb103",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 용담이동 1527-2",
+    "lat": 33.504478,
+    "lng": 126.4978717,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-fd8de220c2b1",
+    "name": "제주야렌트카",
+    "address": "제주 제주시 용담이동 859-0",
+    "lat": 33.5099265,
+    "lng": 126.5025711,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-cd29bd04a7bf",
+    "name": "제주에누리닷컴",
+    "address": "제주 제주시 용담이동 859-0",
+    "lat": 33.5098905,
+    "lng": 126.502612,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-967c8c01a8f1",
+    "name": "제주에코렌트카",
+    "address": "제주 제주시 도두일동 1168-0",
+    "lat": 33.497864,
+    "lng": 126.4800862,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7f4786d0da64",
+    "name": "제주엔젤렌트카",
+    "address": "제주 제주시 용담이동 1815",
+    "lat": 33.4963642,
+    "lng": 126.4929463,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-3631608ac81f",
+    "name": "제주엔젤렌트카",
+    "address": "제주 제주시 용담이동 1815-0",
+    "lat": 33.4963642,
+    "lng": 126.4928629,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-973b91cf0596",
+    "name": "제주엔젤렌트카",
+    "address": "제주 제주시 용담이동 1815-0",
+    "lat": 33.4963642,
+    "lng": 126.4929463,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-3c3d0a577f30",
+    "name": "제주여행렌트카",
+    "address": "제주 제주시 내도동 181-0",
+    "lat": 33.487615,
+    "lng": 126.445867,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c7df07334ad1",
+    "name": "제주여행렌트카",
+    "address": "제주 제주시 용담삼동 2220",
+    "lat": 33.5163064,
+    "lng": 126.4913351,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-aeb90f06fa89",
+    "name": "제주여행렌트카",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5163064,
+    "lng": 126.4913351,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-cfc53fc78100",
+    "name": "제주오케이렌터카",
+    "address": "제주 제주시 용담이동 737",
+    "lat": 33.5036577,
+    "lng": 126.5029761,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-266aad63c88d",
+    "name": "제주오케이렌터카",
+    "address": "제주 제주시 용담이동 737-0",
+    "lat": 33.5036577,
+    "lng": 126.5029761,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-860386774e24",
+    "name": "제주왕렌트카",
+    "address": "제주 제주시 연동 301-5",
+    "lat": 33.4911426,
+    "lng": 126.4962238,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-deb8063737bc",
+    "name": "제주원렌트카",
+    "address": "제주 제주시 용담이동 920-6",
+    "lat": 33.5116403,
+    "lng": 126.5025009,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-20ac18b0ef73",
+    "name": "제주유레카",
+    "address": "제주 제주시 용담삼동 1175-1",
+    "lat": 33.5182507,
+    "lng": 126.4951681,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d5fbbb9f3751",
+    "name": "제주유레카",
+    "address": "제주 제주시 용담삼동 1175-1",
+    "lat": 33.5181098,
+    "lng": 126.4954176,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f593fe535410",
+    "name": "제주자연렌트카",
+    "address": "제주 제주시 오라이동 2823",
+    "lat": 33.4886407,
+    "lng": 126.5055355,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-56de605f8c06",
+    "name": "제주자연렌트카",
+    "address": "제주 제주시 오라이동 2823-0",
+    "lat": 33.4886407,
+    "lng": 126.5055355,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ccacde400eff",
+    "name": "제주전기렌트카",
+    "address": "제주 제주시 이호일동 467-1",
+    "lat": 33.5001692,
+    "lng": 126.4571437,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f9a53d905ac4",
+    "name": "제주제일렌트카",
+    "address": "제주 제주시 용담이동 1730-4",
+    "lat": 33.4983918,
+    "lng": 126.4981958,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-005ee733d34b",
+    "name": "제주카카",
+    "address": "제주 제주시 용담이동 1524-12",
+    "lat": 33.5049149,
+    "lng": 126.4983933,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7239d282fd63",
+    "name": "제주카카",
+    "address": "제주 제주시 용담이동 1673-1",
+    "lat": 33.4993639,
+    "lng": 126.4984457,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7a1b476a823b",
+    "name": "제주카카",
+    "address": "제주 제주시 용담이동 1815-0",
+    "lat": 33.4963364,
+    "lng": 126.4928629,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-477457e75296",
+    "name": "제주타요렌트카",
+    "address": "제주 제주시 이호이동 200-4",
+    "lat": 33.4939199,
+    "lng": 126.4648653,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c0c44921646e",
+    "name": "제주패스렌트카",
+    "address": "제주 제주시 연동 271-6",
+    "lat": 33.4900871,
+    "lng": 126.4902521,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f12898e2f959",
+    "name": "제주평화렌트카",
+    "address": "제주 제주시 용담이동 779-4",
+    "lat": 33.5070853,
+    "lng": 126.5056117,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-38b0ef937c15",
+    "name": "제주프랜드렌터카/통합배반차센터",
+    "address": "제주 제주시 용담삼동 2220",
+    "lat": 33.5156256,
+    "lng": 126.4909285,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-32cef69233f7",
+    "name": "제주프랜드렌터카/통합배반차센터",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5156256,
+    "lng": 126.4909285,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-aac48ad5400e",
+    "name": "제주프랜드렌트카",
+    "address": "제주 제주시 용담삼동 2220",
+    "lat": 33.5156479,
+    "lng": 126.4908971,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e626382442d5",
+    "name": "제주프랜드렌트카",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5156479,
+    "lng": 126.4908971,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-69a6bbfe7b2c",
+    "name": "제주프리렌트카",
+    "address": "제주 제주시 도두이동 412-1",
+    "lat": 33.5032523,
+    "lng": 126.4870023,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-084fbcf36e13",
+    "name": "제주하늘렌트카",
+    "address": "제주 제주시 용담삼동 1034-41",
+    "lat": 33.5163065,
+    "lng": 126.5025564,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-6d743426c32a",
+    "name": "제주한라렌트카",
+    "address": "제주 제주시 용담이동 1922-3",
+    "lat": 33.5025857,
+    "lng": 126.4938628,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f4b1624b09dc",
+    "name": "제주한라렌트카",
+    "address": "제주 제주시 용담이동 1922-3",
+    "lat": 33.5026867,
+    "lng": 126.4939085,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a9379a2141a2",
+    "name": "제주현대렌트카",
+    "address": "제주 제주시 용담삼동 1181-5",
+    "lat": 33.5177507,
+    "lng": 126.4960014,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b2295c49b0c3",
+    "name": "제주힐렌트카",
+    "address": "제주 제주시 도두이동 382-1",
+    "lat": 33.5022524,
+    "lng": 126.4861412,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-18c8d06d6c80",
+    "name": "조아렌트카",
+    "address": "제주 제주시 도두일동 2246-1",
+    "lat": 33.4970029,
+    "lng": 126.4720314,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5626ab8d94f3",
+    "name": "조아렌트카",
+    "address": "제주 제주시 도두일동 2248-1",
+    "lat": 33.496372,
+    "lng": 126.4721502,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-0d7fbd4f92f7",
+    "name": "조이렌트카",
+    "address": "제주 제주시 도두일동 1286-1",
+    "lat": 33.4984508,
+    "lng": 126.4770067,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c61abb2e2d58",
+    "name": "좋은렌트카",
+    "address": "제주 제주시 도두일동 1173-2",
+    "lat": 33.4980028,
+    "lng": 126.4793641,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-77836f09c8b4",
+    "name": "주식회사 더세이프렌터카",
+    "address": "제주 제주시 용담이동 2739",
+    "lat": 33.5035455,
+    "lng": 126.5056373,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-829c49694a6b",
+    "name": "주식회사 로보트 렌터카",
+    "address": "제주 제주시 용담이동 798-1",
+    "lat": 33.5090058,
+    "lng": 126.5046179,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-cbd9b226ebec",
+    "name": "찜카",
+    "address": "제주 제주시 영평동 2193",
+    "lat": 33.442289,
+    "lng": 126.5714505,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-0fd56ef2e930",
+    "name": "차세대렌트카/제주지점",
+    "address": "제주 제주시 오라이동 2213-2",
+    "lat": 33.4957533,
+    "lng": 126.5101466,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-aa42cceb3a76",
+    "name": "참좋은렌트카",
+    "address": "제주 제주시 연동 290-2",
+    "lat": 33.4931701,
+    "lng": 126.4938073,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-5aca3ac63330",
+    "name": "캠핑카생존기",
+    "address": "제주 제주시 이호이동 1436-2",
+    "lat": 33.4920379,
+    "lng": 126.4517958,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b2e0dfe25e80",
+    "name": "케이디렌트카",
+    "address": "제주 제주시 이호이동 193",
+    "lat": 33.4944476,
+    "lng": 126.465643,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-ae68dfb32c4b",
+    "name": "케이디렌트카",
+    "address": "제주 제주시 이호이동 193-0",
+    "lat": 33.4944476,
+    "lng": 126.465643,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7a89e7815b20",
+    "name": "케이렌터카",
+    "address": "제주 제주시 오라이동 174",
+    "lat": 33.4595072,
+    "lng": 126.5131114,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b4d77adf68b7",
+    "name": "케이렌터카",
+    "address": "제주 제주시 오라이동 174-0",
+    "lat": 33.4595072,
+    "lng": 126.5131114,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-59c78431a54d",
+    "name": "타시오렌트카",
+    "address": "제주 제주시 도두이동 1106-1",
+    "lat": 33.4997249,
+    "lng": 126.4799751,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1fe19295abd9",
+    "name": "탐라렌트카/본사",
+    "address": "제주 제주시 용담이동 1588-2",
+    "lat": 33.5048355,
+    "lng": 126.4968347,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-2d80f44f6b73",
+    "name": "통일렌트카",
+    "address": "제주 제주시 도두이동 1158",
+    "lat": 33.4962808,
+    "lng": 126.4826971,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-d48af9c8addd",
+    "name": "통일렌트카",
+    "address": "제주 제주시 도두이동 1158-0",
+    "lat": 33.4962808,
+    "lng": 126.4826971,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7124a83e4fb8",
+    "name": "특별한렌트카",
+    "address": "제주 제주시 용담이동 727-3",
+    "lat": 33.5034746,
+    "lng": 126.5005011,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f4cf2ed4fe93",
+    "name": "특별한렌트카",
+    "address": "제주 제주시 용담이동 727-6",
+    "lat": 33.5034209,
+    "lng": 126.5003964,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1b29e980585d",
+    "name": "파워렌트카",
+    "address": "제주 제주시 도두일동 1376-1",
+    "lat": 33.4996693,
+    "lng": 126.4785586,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-434f747a50e9",
+    "name": "패밀리렌트카",
+    "address": "제주 제주시 도두일동 1168",
+    "lat": 33.4975862,
+    "lng": 126.4800584,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1cbd63e0cde1",
+    "name": "패밀리렌트카",
+    "address": "제주 제주시 도두일동 1168-0",
+    "lat": 33.4975862,
+    "lng": 126.4800584,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-0e288324eadc",
+    "name": "퍼스트렌트카",
+    "address": "제주 제주시 도두이동 382-1",
+    "lat": 33.5024175,
+    "lng": 126.4862487,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-e5f190053b5b",
+    "name": "퍼스트렌트카",
+    "address": "제주 제주시 도두이동 414-5",
+    "lat": 33.502709,
+    "lng": 126.4865697,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-71ab3d247db9",
+    "name": "퍼시픽렌터카 주식회사 제주영업소",
+    "address": "제주 제주시 도두일동 2159-1",
+    "lat": 33.4977764,
+    "lng": 126.4724421,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-8d8866931f21",
+    "name": "퍼시픽렌터카/제주영업소",
+    "address": "제주 제주시 도두이동 301-1",
+    "lat": 33.498725,
+    "lng": 126.4838637,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-46fe921de142",
+    "name": "퍼시픽렌터카/제주영업소",
+    "address": "제주 제주시 용담이동 1673-1",
+    "lat": 33.4992502,
+    "lng": 126.4982986,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-77695eeb5834",
+    "name": "퍼시픽렌터카/제주영업소",
+    "address": "제주 제주시 용담이동 1673-1",
+    "lat": 33.4993466,
+    "lng": 126.4984494,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-12a3a57a5541",
+    "name": "포시즌렌트카",
+    "address": "제주 제주시 도두이동 968-1",
+    "lat": 33.5030856,
+    "lng": 126.4821693,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-434d2146260a",
+    "name": "푸조시트로엥제주렌터카하우스",
+    "address": "제주 제주시 도두일동 1286-1",
+    "lat": 33.4984195,
+    "lng": 126.4770865,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c76086452b81",
+    "name": "프렌즈렌트카",
+    "address": "제주 제주시 용담삼동 2220",
+    "lat": 33.5163042,
+    "lng": 126.4913405,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-7a77c9836499",
+    "name": "프렌즈렌트카",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.515656,
+    "lng": 126.4908948,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b413f553e143",
+    "name": "프렌즈렌트카",
+    "address": "제주 제주시 용담삼동 2220-0",
+    "lat": 33.5163042,
+    "lng": 126.4913405,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f812c0117586",
+    "name": "프렌즈렌트카",
+    "address": "제주 제주시 용담삼동 2221-0",
+    "lat": 33.5152394,
+    "lng": 126.4914901,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1cbbd8cd9bd5",
+    "name": "하나렌트카",
+    "address": "제주 제주시 용담이동 892-1",
+    "lat": 33.5104182,
+    "lng": 126.5045007,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a0403b1d8901",
+    "name": "하이오토렌탈",
+    "address": "제주 제주시 삼도이동 1220-1",
+    "lat": 33.5170842,
+    "lng": 126.5166663,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1c57726df23d",
+    "name": "하이제주렌트카",
+    "address": "제주 제주시 도두이동 382-1",
+    "lat": 33.5022802,
+    "lng": 126.4862523,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a6604ab26240",
+    "name": "한국렌트카",
+    "address": "제주 제주시 오라이동 2823-0",
+    "lat": 33.4884762,
+    "lng": 126.5057507,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-82886539dbb9",
+    "name": "한길렌트카",
+    "address": "제주 제주시 외도일동 636-4",
+    "lat": 33.4850596,
+    "lng": 126.4305905,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-552338569482",
+    "name": "한길렌트카",
+    "address": "제주 제주시 용담이동 1554-6",
+    "lat": 33.5035171,
+    "lng": 126.5002544,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-1f864b20e6cf",
+    "name": "한길렌트카",
+    "address": "제주 제주시 용담이동 2002",
+    "lat": 33.5069741,
+    "lng": 126.4931684,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-8ac8d34a11b0",
+    "name": "한길렌트카",
+    "address": "제주 제주시 용담이동 2002-0",
+    "lat": 33.5069741,
+    "lng": 126.4931684,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-a8bde308739b",
+    "name": "한라산렌트카",
+    "address": "제주 제주시 도두일동 2205",
+    "lat": 33.4958919,
+    "lng": 126.4707537,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-c01bb210035c",
+    "name": "한라산렌트카",
+    "address": "제주 제주시 도두일동 2205-0",
+    "lat": 33.4958919,
+    "lng": 126.4707537,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-b861ad70ed5b",
+    "name": "한성렌트카",
+    "address": "제주 제주시 용담이동 1969-0",
+    "lat": 33.5041967,
+    "lng": 126.494696,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-f41c98d2de06",
+    "name": "한진렌터카/제주영업소",
+    "address": "제주 제주시 용담이동 1524-0",
+    "lat": 33.5047522,
+    "lng": 126.4977791,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-9d1b2e2ac0fc",
+    "name": "해피렌트카/제주영업소",
+    "address": "제주 제주시 용담이동 1942",
+    "lat": 33.5026968,
+    "lng": 126.4930017,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  },
+  {
+    "id": "rental-64aa48fd6332",
+    "name": "해피렌트카/제주영업소",
+    "address": "제주 제주시 용담이동 1942-0",
+    "lat": 33.5026968,
+    "lng": 126.4930017,
+    "source": "팀 제공 TMAP 렌트카 POI",
+    "return_verified": false
+  }
+]

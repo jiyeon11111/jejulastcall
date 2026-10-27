@@ -1,0 +1,3 @@
+place_id,hour,is_weekday,congestion
+station-jocheon,14,1,0.42
+station-jocheon,15,1,0.45
