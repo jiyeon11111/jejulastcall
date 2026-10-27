@@ -1,11 +1,19 @@
 import type { Area, Check, Mode, Plan, PlaceDetail, TripForm, RentalHub } from "../types";
 
+import { loadUser, sessionId } from "./session";
+
 const BASE: string = import.meta.env.VITE_API_BASE ?? "";
+
+/** 베타 사용 기록용: 시작 화면에서 정한 익명 ID와 방문 ID를 모든 요청에 붙인다 */
+function trackingHeaders(): Record<string, string> {
+  const user = loadUser();
+  return user ? { "X-User-Id": user.id, "X-Session-Id": sessionId() } : {};
+}
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${BASE}${path}`, {
-    headers: { "Content-Type": "application/json" },
     ...init,
+    headers: { "Content-Type": "application/json", ...trackingHeaders() },
   });
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
@@ -55,7 +63,39 @@ export const api = {
     }),
   place: (id: string, hour: number, transport: string) =>
     request<PlaceDetail>(`/api/places/${id}?hour=${hour}&transport=${transport}`),
+  register: (userId: string, nickname: string, consentVersion: string) =>
+    request<{ ok: boolean; tracking: boolean }>("/api/users", {
+      method: "POST",
+      body: JSON.stringify({ user_id: userId, nickname, consent: true, consent_version: consentVersion }),
+    }),
+  feedback: (body: FeedbackBody) =>
+    request<{ ok: boolean }>("/api/feedback", { method: "POST", body: JSON.stringify(body) }),
 };
+
+export interface FeedbackBody {
+  rating: number;
+  comment: string;
+  would_use: boolean | null;
+  mode: string;
+  stop_ids: string[];
+  stop_names: string[];
+  unfilled_min: number;
+  origin_area: string | null;
+  flight_time: string | null;
+}
+
+export type TrackEvent = "app_open" | "live_start" | "live_done" | "place_detail" | "directions_click" | "swap_open";
+
+/** 사용 기록 한 줄. 기다리지 않고, 실패해도 화면에는 아무 영향이 없다. */
+export function track(type: TrackEvent, payload: Record<string, unknown> = {}): void {
+  if (!loadUser()) return;
+  fetch(`${BASE}/api/events`, {
+    method: "POST",
+    keepalive: true,
+    headers: { "Content-Type": "application/json", ...trackingHeaders() },
+    body: JSON.stringify({ type, payload }),
+  }).catch(() => undefined);
+}
 
 export const kakaoDirections = (name: string, lat: number, lng: number) =>
   `https://map.kakao.com/link/to/${encodeURIComponent(name)},${lat},${lng}`;

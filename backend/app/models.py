@@ -164,3 +164,42 @@ class PlaceDetail(BaseModel):
     to_airport_min: int
     facilities: dict[str, str]
     evidence: dict[str, float | str]
+
+# ── 베타 사용 기록 (tracking.py) ─────────────────────────
+
+EventType = Literal["app_open", "live_start", "live_done", "place_detail", "directions_click", "swap_open"]
+
+
+class UserIn(BaseModel):
+    """시작 화면: 닉네임 + 개인정보 수집·이용 동의"""
+
+    user_id: str = Field(..., description="화면에서 만든 익명 ID (UUID)")
+    nickname: str = Field(..., min_length=1, max_length=20)
+    consent: bool
+    consent_version: str = Field("beta-2026-10-27", max_length=40)
+
+    @model_validator(mode="after")
+    def _check(self) -> "UserIn":
+        if not self.consent:
+            raise ValueError("개인정보 수집·이용에 동의해야 베타를 이용할 수 있어요")
+        self.nickname = self.nickname.strip()
+        if not self.nickname:
+            raise ValueError("닉네임을 입력해 주세요")
+        return self
+
+
+class EventIn(BaseModel):
+    type: EventType
+    payload: dict = Field(default_factory=dict)
+
+
+class FeedbackIn(BaseModel):
+    rating: int = Field(..., ge=1, le=5)
+    comment: str = Field("", max_length=500)
+    would_use: bool | None = Field(None, description="실제 여행에서 쓸 의향")
+    mode: str | None = Field(None, max_length=10)
+    stop_ids: list[str] = Field(default_factory=list, max_length=8)
+    stop_names: list[str] = Field(default_factory=list, max_length=8)
+    unfilled_min: int | None = None
+    origin_area: str | None = Field(None, max_length=40)
+    flight_time: str | None = Field(None, max_length=5)

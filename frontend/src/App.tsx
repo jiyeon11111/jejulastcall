@@ -2,8 +2,10 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { Icon } from "./components/Icon";
 import { Splash } from "./components/Splash";
 import { Sticker } from "./components/Sticker";
+import { Onboarding } from "./components/Onboarding";
 import { Logo, Toast } from "./components/ui";
-import { api } from "./lib/api";
+import { api, track } from "./lib/api";
+import { loadUser, newUser, saveUser, type BetaUser } from "./lib/session";
 import { clockNow, toHHMM, type Clock } from "./lib/time";
 import { Ask } from "./screens/Ask";
 import { Live } from "./screens/Live";
@@ -32,10 +34,23 @@ const EMPTY: TripForm = {
 
 const DEMO_TIMES = ["09:00", "11:00", "13:00", "15:00"];
 
+// 베타 기본은 실제 현재 시각. 발표 시연은 주소 뒤에 ?demo (또는 ?now=13:00) 를 붙인다.
+const DEMO_ENABLED = (() => {
+  const q = new URLSearchParams(window.location.search);
+  return q.has("demo") || q.has("now");
+})();
+
 function initialClock(): Clock {
   const q = new URLSearchParams(window.location.search);
-  if (q.has("real")) return { demo: null, anchoredAt: Date.now() };
+  if (!DEMO_ENABLED) return { demo: null, anchoredAt: Date.now() };
   return { demo: q.get("now") ?? "11:00", anchoredAt: Date.now() };
+}
+
+function register(user: BetaUser) {
+  return api
+    .register(user.id, user.nickname, user.consentVersion)
+    .then(() => saveUser({ ...user, registered: true }))
+    .catch(() => undefined); // 서버가 깨어나는 중이면 다음 접속 때 다시 시도
 }
 
 export default function App() {
@@ -50,7 +65,26 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const [clockMenu, setClockMenu] = useState(false);
+  const [user, setUser] = useState<BetaUser | null>(() => loadUser());
+  const [joining, setJoining] = useState(false);
   const toastTimer = useRef<number | undefined>(undefined);
+
+  // 이미 닉네임을 정한 사람: 접속 기록 (등록이 안 됐었다면 다시 등록)
+  useEffect(() => {
+    const u = loadUser();
+    if (!u) return;
+    (u.registered ? Promise.resolve() : register(u)).then(() => track("app_open", { demo: DEMO_ENABLED }));
+  }, []);
+
+  const join = async (nickname: string) => {
+    const u = newUser(nickname);
+    saveUser(u);
+    setJoining(true);
+    await Promise.race([register(u), new Promise((r) => setTimeout(r, 4000))]);
+    setJoining(false);
+    setUser(u);
+    track("app_open", { demo: DEMO_ENABLED, first: true });
+  };
 
   useEffect(() => {
     setNow(clockNow(clock));
@@ -59,7 +93,16 @@ export default function App() {
   }, [clock]);
 
   useEffect(() => {
-    api.areas().then(setAreas).catch(() => showToast("서버에 연결할 수 없어요. 백엔드를 켜 주세요"));
+    // 무료 서버가 잠들어 있으면 첫 응답이 늦거나 실패할 수 있어 몇 번 다시 시도한다
+    let tries = 0;
+    const load = () =>
+      api.areas().then(setAreas).catch(() => {
+        tries += 1;
+        if (tries === 1) showToast("서버를 깨우는 중이에요. 잠시만 기다려 주세요");
+        if (tries < 6) window.setTimeout(load, 5000);
+        else showToast("서버에 연결할 수 없어요. 잠시 후 새로고침해 주세요");
+      });
+    load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -100,18 +143,19 @@ export default function App() {
     <div className="shell">
       <div className="phone">
         {splash && <Splash onDone={finishSplash} />}
-        {(screen === "ask" || screen === "calculating") && (
+        {!user && !splash && <Onboarding busy={joining} onDone={join} />}
+        {user && (screen === "ask" || screen === "calculating") && (
           <header className="topbar">
             <span className="brand">
               <Logo size={22} />
               제주 라스트콜
             </span>
             <div className="clock-wrap">
-              <button className="clock-pill" onClick={() => setClockMenu(!clockMenu)} type="button">
+              <button className="clock-pill" onClick={() => DEMO_ENABLED && setClockMenu(!clockMenu)} type="button">
                 {clock.demo ? "데모" : "지금"} {toHHMM(now)}
-                <Icon name="chevron" size={12} />
+                {DEMO_ENABLED && <Icon name="chevron" size={12} />}
               </button>
-              {clockMenu && (
+              {DEMO_ENABLED && clockMenu && (
                 <div className="clock-menu" role="menu">
                   <button onClick={() => setDemo(null)} type="button">
                     실제 시각
@@ -127,7 +171,7 @@ export default function App() {
           </header>
         )}
 
-        {screen === "ask" && (
+        {user && screen === "ask" && (
           <Ask
             apiNow={apiNow}
             areas={areas}
@@ -150,6 +194,7 @@ export default function App() {
             onMode={(m) => runPlan(m)}
             onReplan={(extra) => runPlan(plan.mode, extra)}
             onStart={() => {
+              track("live_start", { mode: plan.mode, stops: plan.stop_ids.length, stop_ids: plan.stop_ids });
               setScreen("live");
               window.scrollTo({ top: 0 });
             }}

@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { CATEGORY_ICON, Icon } from "../components/Icon";
 import { Sticker } from "../components/Sticker";
 import { PrimaryButton } from "../components/ui";
-import { api, kakaoDirections } from "../lib/api";
+import { api, track, kakaoDirections } from "../lib/api";
 import { countdownText, durationText, toHHMM, toMin } from "../lib/time";
 import type { Check, Plan, TimelineItem, TripForm } from "../types";
 
@@ -37,6 +37,12 @@ export function Live({
   const stopIndex = stage.kind === "move" || stage.kind === "stay" ? stops.indexOf(stage.stop) : stops.length;
   const finalCheckpoint = plan.checkpoints[0];
   const airportEta = plan.timeline.find((i) => i.type === "airport")?.time ?? plan.airport_eta;
+
+  // 베타 기록: 코스를 끝까지 따라갔는지
+  useEffect(() => {
+    if (stage.kind === "done") track("live_done", { mode: plan.mode, stops: stops.length, stop_ids: plan.stop_ids });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stage.kind]);
 
   // 지금 여기서 공항으로 바로 가면? (단계가 바뀔 때마다 다시 계산)
   const nowHHMM = toHHMM(now);

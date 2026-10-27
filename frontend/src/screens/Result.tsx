@@ -2,7 +2,7 @@ import { useEffect, useState, type CSSProperties } from "react";
 import { CATEGORY_ICON, Icon, TRANSPORT_ICON, TRANSPORT_LABEL } from "../components/Icon";
 import { CATEGORY_TONE } from "../components/Sticker";
 import { Badges, BottomSheet, Logo, PrimaryButton } from "../components/ui";
-import { api, kakaoDirections } from "../lib/api";
+import { api, kakaoDirections, track } from "../lib/api";
 import { durationText, toHHMM as toHHMMSafe, toMin } from "../lib/time";
 import type { Alternative, Mode, Plan, PlaceBrief, PlaceDetail, TimelineItem, TripForm } from "../types";
 import { MODES } from "./Ask";
@@ -118,7 +118,10 @@ export function Result({
               }
               onSwap={
                 item.stop_index !== null && (plan.alternatives[String(item.stop_index)]?.length ?? 0) > 0
-                  ? () => setSheet({ kind: "swap", index: item.stop_index!, item })
+                  ? () => {
+                      track("swap_open", { place_id: item.place?.id, mode: plan.mode });
+                      setSheet({ kind: "swap", index: item.stop_index!, item });
+                    }
                   : undefined
               }
             />
@@ -164,6 +167,8 @@ export function Result({
           {plan.reachable.length > 4 && <button type="button" className="ghost-btn reach-more" aria-expanded={showAllPlaces} onClick={() => setShowAllPlaces(!showAllPlaces)}>{showAllPlaces ? "접기" : `나머지 ${plan.reachable.length - 4}곳 더 보기`}</button>}
         </section>
       )}
+
+      <FeedbackCard form={form} key={`${plan.mode}-${plan.stop_ids.join("-")}`} plan={plan} />
 
       <p className="data-note">
         {plan.data_source === "sample"
@@ -443,6 +448,11 @@ function DetailSheet({
   const visitTo = leave ? Math.floor((toMin(leave) - 1) / 60) : visitFrom;
 
   useEffect(() => {
+    track("place_detail", { place_id: place.id, name: place.name, in_course: inCourse });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [place.id]);
+
+  useEffect(() => {
     let alive = true;
     api
       .place(place.id, visitFrom, transport)
@@ -539,7 +549,13 @@ function DetailSheet({
       )}
 
       <div className="detail__actions">
-        <a className="cta cta--orange" href={kakaoDirections(place.name, place.lat, place.lng)} rel="noreferrer" target="_blank">
+        <a
+          className="cta cta--orange"
+          href={kakaoDirections(place.name, place.lat, place.lng)}
+          onClick={() => track("directions_click", { place_id: place.id, name: place.name })}
+          rel="noreferrer"
+          target="_blank"
+        >
           <span>카카오맵 길찾기</span>
           <span className="arrow-box">
             <Icon name="map" size={16} />
@@ -556,5 +572,83 @@ function DetailSheet({
         )}
       </div>
     </div>
+  );
+}
+
+/** 베타 피드백: 이 코스 별점 + 실제로 쓸 의향 + 한 줄 의견 → Supabase feedback 표 */
+function FeedbackCard({ plan, form }: { plan: Plan; form: TripForm }) {
+  const [rating, setRating] = useState(0);
+  const [wouldUse, setWouldUse] = useState<boolean | null>(null);
+  const [comment, setComment] = useState("");
+  const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const stops = plan.timeline.filter((i) => i.type === "stop");
+
+  const send = async () => {
+    setState("sending");
+    try {
+      await api.feedback({
+        rating,
+        comment,
+        would_use: wouldUse,
+        mode: plan.mode,
+        stop_ids: plan.stop_ids,
+        stop_names: stops.map((s) => s.title),
+        unfilled_min: plan.unfilled_min,
+        origin_area: form.originArea,
+        flight_time: form.flightTime,
+      });
+      setState("sent");
+    } catch {
+      setState("error");
+    }
+  };
+
+  if (state === "sent")
+    return (
+      <section className="feedback feedback--sent" aria-live="polite">
+        <strong>고마워요! 의견이 잘 전달됐어요.</strong>
+        <p>모드를 바꾸거나 장소를 바꿔 보고 다시 평가해 주셔도 돼요.</p>
+      </section>
+    );
+
+  return (
+    <section className="feedback" aria-label="베타 피드백">
+      <strong>이 추천, 어땠어요?</strong>
+      <div className="stars" role="radiogroup" aria-label="별점">
+        {[1, 2, 3, 4, 5].map((n) => (
+          <button
+            aria-checked={rating === n}
+            aria-label={`${n}점`}
+            className={`star ${n <= rating ? "is-on" : ""}`}
+            key={n}
+            onClick={() => setRating(n)}
+            role="radio"
+            type="button"
+          >
+            ★
+          </button>
+        ))}
+      </div>
+      <p className="feedback__q">실제 제주 여행 마지막 날에 쓸 것 같나요?</p>
+      <div className="pill-row">
+        <button aria-pressed={wouldUse === true} className="pill-chip" onClick={() => setWouldUse(true)} type="button">
+          쓸 것 같아요
+        </button>
+        <button aria-pressed={wouldUse === false} className="pill-chip" onClick={() => setWouldUse(false)} type="button">
+          아직은 아니에요
+        </button>
+      </div>
+      <textarea
+        maxLength={500}
+        onChange={(e) => setComment(e.target.value)}
+        placeholder="좋았던 점, 이상했던 장소나 시간 등 (선택)"
+        rows={3}
+        value={comment}
+      />
+      <button className="cta cta--dark feedback__send" disabled={!rating || state === "sending"} onClick={send} type="button">
+        <span>{state === "sending" ? "보내는 중…" : "의견 보내기"}</span>
+      </button>
+      {state === "error" && <p className="feedback__err">전송하지 못했어요. 잠시 후 다시 눌러 주세요.</p>}
+    </section>
   );
 }
