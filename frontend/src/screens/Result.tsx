@@ -3,6 +3,7 @@ import { CATEGORY_ICON, Icon, TRANSPORT_ICON, TRANSPORT_LABEL } from "../compone
 import { CATEGORY_TONE } from "../components/Sticker";
 import { Badges, BottomSheet, Logo, PrimaryButton } from "../components/ui";
 import { api, kakaoDirections, track } from "../lib/api";
+import { entryCode, loadUser } from "../lib/session";
 import { durationText, toHHMM as toHHMMSafe, toMin } from "../lib/time";
 import type { Alternative, Mode, Plan, PlaceBrief, PlaceDetail, TimelineItem, TripForm } from "../types";
 import { MODES } from "./Ask";
@@ -603,13 +604,39 @@ function FeedbackCard({ plan, form }: { plan: Plan; form: TripForm }) {
     }
   };
 
-  if (state === "sent")
+  if (state === "sent") {
+    const user = loadUser();
+    const code = user ? entryCode(user) : null;
+    const survey = surveyUrl(user?.nickname ?? "", code ?? "");
     return (
       <section className="feedback feedback--sent" aria-live="polite">
         <strong>고마워요! 의견이 잘 전달됐어요.</strong>
-        <p>모드를 바꾸거나 장소를 바꿔 보고 다시 평가해 주셔도 돼요.</p>
+        {code && (
+          <div className="entry-code">
+            <span>추첨 응모 코드</span>
+            <b>{code}</b>
+          </div>
+        )}
+        {survey ? (
+          <>
+            <p>1분 설문에 답하면 추첨에 응모돼요. 닉네임과 코드는 자동으로 채워져요.</p>
+            <a
+              className="cta cta--orange feedback__send"
+              href={survey}
+              onClick={() => track("survey_click", { code })}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <span>1분 설문하고 응모하기</span>
+            </a>
+          </>
+        ) : (
+          <p>설문에 이 코드를 적으면 추첨에 응모돼요.</p>
+        )}
+        <p>모드나 장소를 바꿔 보고 다시 평가해 주셔도 돼요.</p>
       </section>
     );
+  }
 
   return (
     <section className="feedback" aria-label="베타 피드백">
@@ -651,4 +678,13 @@ function FeedbackCard({ plan, form }: { plan: Plan; form: TripForm }) {
       {state === "error" && <p className="feedback__err">전송하지 못했어요. 잠시 후 다시 눌러 주세요.</p>}
     </section>
   );
+}
+
+/** Vercel 환경변수 VITE_SURVEY_URL: 구글 설문 '미리 채운 링크'. {nickname}, {code} 자리에 값을 넣는다. */
+function surveyUrl(nickname: string, code: string): string | null {
+  const template: string = import.meta.env.VITE_SURVEY_URL ?? "";
+  if (!template) return null;
+  return template
+    .replace(/%7Bnickname%7D|\{nickname\}/gi, encodeURIComponent(nickname))
+    .replace(/%7Bcode%7D|\{code\}/gi, encodeURIComponent(code));
 }

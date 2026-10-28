@@ -84,7 +84,7 @@ export interface FeedbackBody {
   flight_time: string | null;
 }
 
-export type TrackEvent = "app_open" | "live_start" | "live_done" | "place_detail" | "directions_click" | "swap_open";
+export type TrackEvent = "app_open" | "live_start" | "live_done" | "place_detail" | "directions_click" | "swap_open" | "survey_click";
 
 /** 사용 기록 한 줄. 기다리지 않고, 실패해도 화면에는 아무 영향이 없다. */
 export function track(type: TrackEvent, payload: Record<string, unknown> = {}): void {

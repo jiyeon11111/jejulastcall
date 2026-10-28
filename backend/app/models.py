@@ -167,7 +167,7 @@ class PlaceDetail(BaseModel):
 
 # ── 베타 사용 기록 (tracking.py) ─────────────────────────
 
-EventType = Literal["app_open", "live_start", "live_done", "place_detail", "directions_click", "swap_open"]
+EventType = Literal["app_open", "live_start", "live_done", "place_detail", "directions_click", "swap_open", "survey_click"]
 
 
 class UserIn(BaseModel):

@@ -75,3 +75,8 @@ export function sessionId(): string {
   }
   return memorySession;
 }
+
+/** 기프티콘 추첨 응모 코드: 익명 ID 앞 6자리. Supabase users.id 와 대조해 실제 사용 여부를 확인한다. */
+export function entryCode(user: BetaUser): string {
+  return "LC-" + user.id.replace(/-/g, "").slice(0, 6).toUpperCase();
+}

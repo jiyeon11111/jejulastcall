@@ -82,3 +82,14 @@ from public.events, jsonb_array_elements_text(payload->'stop_names') as name
 where type = 'plan'
 group by 1
 order by 2 desc;
+
+-- ── 기프티콘 추첨 대조용: 설문에 적힌 응모 코드가 실제 앱 사용자인지 확인 ──
+create or replace view public.raffle_check with (security_invoker = true) as
+select
+  'LC-' || upper(left(replace(u.id::text, '-', ''), 6))                     as 응모코드,
+  u.nickname                                                                as 닉네임,
+  (select count(*) from public.events e where e.user_id = u.id and e.type = 'plan') as 코스요청수,
+  (select count(*) from public.feedback f where f.user_id = u.id)                   as 별점수,
+  u.created_at                                                              as 가입시각
+from public.users u
+order by u.created_at;
